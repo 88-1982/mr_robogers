@@ -25,6 +25,13 @@
   The number 32 should be replaced with "Won't you be my neighbor?"
   A user should be able to enter a new number and see new results over and over again.
 
+## Specifications
+Describe: forloop(Number)
+
+Test 1: "It should return an array with 0 if the number 0 is inputted."
+Expect (forLoop(0)).toEqual([0]);
+
+
 
 
 
