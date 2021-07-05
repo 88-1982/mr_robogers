@@ -31,6 +31,14 @@ Describe: forloop(Number)
 Test 1: "It should return an array with 0 if the number 0 is inputted."
 Expect (forLoop(0)).toEqual([0]);
 
+Test 2: "It should return an array that counts up from 0 to the inputted number."
+Expect (5)).toEqual([0,1,2,3,4,5]);
+
+Test 3: "It should return an array that counts from 0 to the inputted number Except for the number 1, which will be Replace with "beep!."
+expect (forLoop(5)).toEqual([0,"Beep!",2,3,4,5]);
+
+Test 4: "It should return an array that counts up from 0 to the inputted nunber."
+
 
 
 
