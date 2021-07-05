@@ -37,7 +37,8 @@ Expect (5)).toEqual([0,1,2,3,4,5]);
 Test 3: "It should return an array that counts from 0 to the inputted number Except for the number 1, which will be Replace with "beep!."
 expect (forLoop(5)).toEqual([0,"Beep!",2,3,4,5]);
 
-Test 4: "It should return an array that counts up from 0 to the inputted nunber."
+Test 4: "It should return an array that counts up from 0 to the inputted numbers that contain a 1,2 or 3 which will be replaced with a message."
+Expect (forloop(3)).toEqual(["wont you bem my neighbor?"]);
 
 
 

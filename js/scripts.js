@@ -2,6 +2,7 @@
 function numberMessage(result) {
   let number =$("input#number").val();
   let array = [];
+  let result = [];
   for (let i=0; i <= i++) {
     array.push(i.toString());
     if (array[i].inculdes("3")) {
