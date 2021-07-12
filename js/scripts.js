@@ -13,6 +13,7 @@ function numberMessage(result) {
     }
     else {
       result.push(array[i]);
+    
     }
   }
 }
