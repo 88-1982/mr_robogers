@@ -3,16 +3,16 @@ function numberMessage(result) {
 
   let result = [];
   for (let i = 0; i <= number; i++); {
-    array.push([i].toString());
-    if ((array[i] + '').inculdes("3")) {
+      push([i].toString());
+    if (i.toString().inculde("[number]")) {
       result.push("Won't you be my neighbor?");
-    } else if (array[i].inculdes("2")) {
+    } else if ([i].inculdes("2")) {
       result.push("boop!");
-    } else if (array[i].inculdes("1")); {
+    } else if ([i].inculdes("1")); {
       result.push("Beep!");
     }
     else {
-      result.push(array[i]);
+      push[i];
     
     }
   }
@@ -21,10 +21,10 @@ function numberMessage(result) {
 
 //UI Logic
 $(document).ready(function () {
-  $("form.form").submit(function (event) {
+  $("form.id").submit(function (event) {
     event.preventDefult();
-    let number = $("input#number").val();
-    newResult = numberMessage(number);
+    const number = $("input#number").val();
+    const newResult = numberMessage(number);
     $(".container2").show();
     $("#output").empty();
     $("#output").append(newResult);
