@@ -12,14 +12,11 @@ function numberMessage(result) {
       result.push("Beep!");
     }
     else {
-
-    });
-
+      result.push(array[i]);
+    }
   }
-
-
-  return result
 }
+
 
 //UI Logic
 $(document).ready(function () {
